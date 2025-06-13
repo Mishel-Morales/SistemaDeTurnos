@@ -13,3 +13,6 @@
 .bordeDos{
     border-color: #4bd8ccb6;
 }
+body{
+    overflow-x: hidden;
+}
