@@ -74,7 +74,7 @@ La aplicación tiene tres secciones:
 
 ## 📸 Captura de pantalla
 
-*Agregá una imagen aquí si querés mostrar una vista previa de la app.*
+file:///home/pc-6/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202025-06-13%2016-48-30.png
 
 ---
 
