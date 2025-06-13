@@ -74,7 +74,8 @@ La aplicación tiene tres secciones:
 
 ## 📸 Captura de pantalla
 
-file:///home/pc-6/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202025-06-13%2016-48-30.png
+![Captura desde 2025-06-13 16-48-30](https://github.com/user-attachments/assets/fa6ba274-7a31-4ce4-9ea7-a564eae0c283)
+
 
 ---
 
