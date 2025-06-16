@@ -85,8 +85,21 @@ const crearFila = (nombre, edad, sintomas, numeroPaciente) => {
         <td>${nombre}</td>
         <td>${edad} años</td>
         <td>${sintomas}</td>
-        <td>01:25 PM</td>
+        <td>${obtenerHora12()}</td>
     </tr><span></span>`
+}
+
+function obtenerHora12() {
+    const ahora = new Date();
+    let horas = ahora.getHours();
+    const minutos = ahora.getMinutes().toString().padStart(2, '0');
+    const segundos = ahora.getSeconds().toString().padStart(2, '0');
+    const ampm = horas >= 12 ? 'PM' : 'AM';
+    
+    horas = horas % 12;
+    horas = horas ? horas : 12;
+
+    return `${horas.toString().padStart(2, '0')}:${minutos}:${segundos} ${ampm}`;
 }
 
 const agregarPaciente = () => {
